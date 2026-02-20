@@ -1,13 +1,194 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+  <title>CJ Plumbing Resorts</title>
+
+  <!-- Social Preview -->
+  <meta property="og:title" content="CJ Plumbing Resorts">
+  <meta property="og:description" content="Professional plumbing services with excellence and trust.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0053.jpg">
+  <meta property="og:url" content="https://allroundadvert.github.io/CJ-PLUMBING-RESORTS-/">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CJ Plumbing Resorts">
+  <meta name="twitter:description" content="Professional plumbing services with excellence and trust.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0053.jpg">
+
+  <style>
+    /* ===== GLOBAL STYLES ===== */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    h1 {
+      font-size: 3em;
+      margin: 50px 20px 10px 20px;
+      color: #00fff7;
+      text-shadow: 2px 2px 15px #000;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 10px auto 40px auto;
+      line-height: 1.6;
+      color: #e0e0e0;
+      text-shadow: 1px 1px 5px #000;
+    }
+
+    /* ===== HERO IMAGE ===== */
+    .hero-img {
+      width: 100%;
+      max-width: 450px;
+      margin: 20px auto;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 0 0 35px #00fff7;
+      transition: transform 0.4s, box-shadow 0.4s;
+    }
+    .hero-img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 50px #00fff7;
+    }
+
+    /* ===== BUTTONS ===== */
+    .btn {
+      display: inline-block;
+      margin: 15px;
+      padding: 20px 40px;
+      border-radius: 12px;
+      font-size: 1.2em;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      box-shadow: 0 0 20px #00fff7;
+      transition: transform 0.2s, opacity 0.2s, box-shadow 0.3s;
+    }
+    .btn:hover {
+      transform: scale(1.1);
+      opacity: 0.95;
+      box-shadow: 0 0 35px #00fff7;
+    }
+    .call { background-color: #ff4c4c; }
+    .whatsapp { background-color: #25d366; }
+    .email { background-color: #ff9900; }
+
+    /* ===== FLOATING MATERIALS ===== */
+    .materials-container {
+      position: relative;
+      height: 250px;
+      overflow: hidden;
+      margin: 50px 0;
+    }
+    .material {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      white-space: nowrap;
+      animation: floatLeft 18s linear infinite;
+    }
+    .material img {
+      width: 200px;
+      border-radius: 15px;
+      margin: 0 20px;
+      cursor: pointer;
+      box-shadow: 0 0 25px #00fff7;
+      transition: transform 0.4s, box-shadow 0.4s;
+    }
+    .material img:hover {
+      transform: scale(1.15);
+      box-shadow: 0 0 40px #00fff7;
+    }
+    .material:nth-child(1) { animation-delay: 0s; }
+    .material:nth-child(2) { animation-delay: 2s; }
+    .material:nth-child(3) { animation-delay: 4s; }
+    .material:nth-child(4) { animation-delay: 6s; }
+    .material:nth-child(5) { animation-delay: 8s; }
+
+    @keyframes floatLeft {
+      0% { left: 100%; }
+      100% { left: -250px; }
+    }
+
+    /* ===== STATIC CLICKABLE IMAGES ===== */
+    .static-images {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 50px 0;
+      gap: 25px;
+    }
+    .static-images a img {
+      width: 220px;
+      border-radius: 15px;
+      cursor: pointer;
+      box-shadow: 0 0 25px #00fff7;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .static-images a img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 40px #00fff7;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background-color: #111;
+      color: #aaa;
+      padding: 25px;
+      margin-top: 50px;
+      font-size: 0.9em;
+    }
+
+  </style>
 </head>
+
 <body>
-  <h1>Welcome</h1>
-  <p>This site is now working.</p>
+
+  <h1>CJ Plumbing Resorts</h1>
+  <p>We deliver professional plumbing services with excellence, trust, and powerful results. Contact us now for urgent services!</p>
+
+  <!-- HERO IMAGE -->
+  <a href="https://wa.me/2348131236078?text=Hello%2C%20I%20need%20plumbing%20services%20urgently.%20Please%20reply." target="_blank">
+    <img src="https://raw.githubusercontent.com/allroundadvert/CJ-Global-/main/IMG-20260207-WA0053.jpg" alt="CJ Plumbing Resorts" class="hero-img">
+  </a>
+
+  <!-- FLOATING MATERIALS -->
+  <div class="materials-container">
+    <div class="material"><img src="IMG-20260207-WA0051(1).jpg" alt="W.C Set"></div>
+    <div class="material"><img src="IMG-20260207-WA0040.jpg" alt="Jacuzzi"></div>
+    <div class="material"><img src="IMG-20260207-WA0039.jpg" alt="Pipes"></div>
+    <div class="material"><img src="IMG-20260207-WA0041.jpg" alt="J.P. Tanks"></div>
+    <div class="material"><img src="IMG-20260207-WA0042.jpg" alt="Other Materials"></div>
+  </div>
+
+  <!-- STATIC CLICKABLE IMAGES -->
+  <div class="static-images">
+    <a href="https://wa.me/2348131236078?text=Hello%2C%20I%20am%20interested%20in%20your%20services.%20Please%20assist%20me." target="_blank">
+      <img src="IMG-20260207-WA0051(1).jpg" alt="Interested?">
+    </a>
+    <a href="https://wa.me/2348131236078?text=Hello%2C%20I%20need%20plumbing%20service%20urgently." target="_blank">
+      <img src="IMG-20260207-WA0040.jpg" alt="Interested?">
+    </a>
+    <a href="https://wa.me/2348131236078?text=Hello%2C%20I saw your website and I am interested." target="_blank">
+      <img src="IMG-20260207-WA0039.jpg" alt="Interested?">
+    </a>
+  </div>
+
+  <!-- CONTACT BUTTONS -->
+  <h2>Contact Us</h2>
+  <a class="btn call" href="tel:08131236078">Call Us</a>
+  <a class="btn whatsapp" href="https://wa.me/2348131236078?text=Hello%2C%20I%20am%20interested%20in%20your%20services." target="_blank">WhatsApp</a>
+  <a class="btn email" href="mailto:okorogu3@gmail.com">Email Us</a>
+
+  <footer>
+    © 2026 CJ Plumbing Resorts. All rights reserved.
+  </footer>
+
 </body>
 </html>
